@@ -1,0 +1,18 @@
+.height-10rem {
+    height: 10rem;
+}
+
+.white-space {
+    white-space: pre-line;
+}
+
+.spacing {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: larger;
+}
+
+.min-height-58px {
+    min-height: 58px;
+}

@@ -6,7 +6,7 @@ if [ $? -eq 0 ]; then
 else
   now=`date`
   echo "$now - gunicorn is not running, starting"
-  cd /home/luzian/Textzeichen
+  cd /home/luzian/textzeichen
   source /home/luzian/miniconda3/etc/profile.d/conda.sh
   conda activate main
   gunicorn main:server -w 2 -b 127.0.0.1:8050 >& log.txt &
